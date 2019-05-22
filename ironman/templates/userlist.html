@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>department</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="top_content"> 
+				<div id="header">
+					<div id="rightheader">
+						<p>
+							2009/11/20
+							<br />
+						</p>
+					</div>
+					<div id="topheader">
+						<h1 id="title">
+							<a href="#">main</a>
+						</h1>
+					</div>
+					<div id="navigation">
+					</div>
+				</div>
+				<div id="content">
+					<p id="whereami">
+					</p>
+					<h1>
+						Welcome!
+					</h1>
+					<table class="table">
+						<tr class="table_header">
+							<td>
+								uuid
+							</td>
+							<td>
+								username
+							</td>
+							<td>
+								password
+							</td>
+							<td>
+								provicne
+							</td>
+							<td>
+								city
+							</td>
+							<td>
+								birthday
+							</td>
+							<td>
+								manager
+							</td>
+						</tr>
+                        {% for i in list1 %}
+						<tr class="row1">
+							<td>
+								{{ i.0}}
+							</td>
+							<td>
+						{{ i.1.peopleusername }}
+							</td>
+							<td>
+								{{ i.1.peoplepassword }}
+							</td>
+							<td>
+								{{ i.1.otherprovince }}
+							</td>
+							<td>
+								{{ i.1.othercity }}
+							</td>
+							<td>
+								{{ i.1.peoplebirth }}
+							</td>
+                            <td>
+                                <a href="{% url 'sc' %}?id={{ i.0 }}">删除</a>
+							</td>
+						</tr>
+                        {% endfor %}
+					</table>
+					<p>
+						<input type="button" class="button" value="Add Department" onclick="location='addDepartment.html'"/>
+					</p>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="footer_bg">
+				ABC@126.com
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

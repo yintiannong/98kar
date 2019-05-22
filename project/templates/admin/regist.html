@@ -1,0 +1,166 @@
+{% extends 'super.html'%}
+{% load static %}
+{% block super %}
+    <div id="content">
+					<p id="whereami">
+					</p>
+					<h1>
+						注册
+					</h1>
+					<form action="{% url 'yh:zc' %}" method="post">
+                        {% csrf_token %}
+						<table cellpadding="0" cellspacing="0" border="0"
+							class="form_table">
+							<tr>
+								<td valign="middle" align="right">
+									用户名:
+								</td>
+
+								<td valign="middle" align="left">
+									<input type="text" class="inputgri" name="username" id="username" onblur="fun()"/>
+                                    <img id="zi" style="height: 20px;vertical-align: center">
+								</td>
+							</tr>
+
+							<tr>
+								<td valign="middle" align="right">
+									真实姓名:
+								</td>
+								<td valign="middle" align="left">
+									<input type="text" class="inputgri" name="name" />
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" align="right">
+									密码:
+								</td>
+								<td valign="middle" align="left">
+									<input type="password" class="inputgri" name="pwd" />
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" align="right">
+									性别:
+								</td>
+								<td valign="middle" align="left">
+									男
+									<input type="radio" class="inputgri" name="sex" value="1" checked="checked"/>
+									女
+									<input type="radio" class="inputgri" name="sex" value="0"/>
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" align="right">
+									生日:
+								</td>
+								<td valign="middle" align="left">
+									<input type="text" class="inputgri" name="birth"/>
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" align="right">
+									验证码:
+									<img id="num" src="{% url 'yh:yzm' %}" />
+
+									<a href="javascript:void 0;" onclick="dun()">换一张</a>
+								</td>
+								<td valign="middle" align="left">
+									<input type="text" class="inputgri" name="number" id="yzm" onblur="fun1()" onkeydown="fun2()"/>
+                                    <img id="tu1" style="height: 20px">
+								</td>
+							</tr>
+						</table>
+						<p>
+							<input type="button" class="button" value="Submit &raquo;" id="anniu" onclick="fun3()"/>
+						</p>
+					</form>
+				</div>
+    <script src="/static/jquery/jquery-1.11.1.min.js"></script>
+<script>
+    var flag1=0
+    var flag2=0
+    function fun() {
+
+        var xhr;
+        if (window.ActiveXObject) {
+            xhr = new ActiveXObject('Microsoft.XMLHTTP');
+
+        } else if (window.XMLHttpRequest) {
+            xhr = new XMLHttpRequest();
+        }
+
+        {#    初始化xhr  #}
+        xhr.open('get', '{% url 'yh:yz' %}?username=' + $("#username").val());
+
+        $('#zi').attr('src','/static/panduan/load.gif');
+        {# 请求发送#}
+        xhr.send()
+        xhr.onreadystatechange=function () {
+            if(xhr.readyState==4 && xhr.status==200){
+                var ret=xhr.responseText;
+
+                console.log(ret)
+                if(ret=='ok'){ $('#zi').attr('src','{% static '/panduan/ok.gif/' %}')
+                flag2=1;}
+
+                else if(ret=='error'){ $('#zi').attr('src','{% static '/panduan/error.jpg/' %}');}
+
+
+
+
+            }
+
+
+
+        }
+    }
+    function dun() {
+        $('#num').attr('src','{% url 'yh:yzm' %}?'+(new Date()).getTime())
+
+
+
+        }
+    function fun1() {
+        var xhr1;
+        if (window.ActiveXObject) {
+            xhr1 = new ActiveXObject('Microsoft.XMLHTTP');
+
+        } else if (window.XMLHttpRequest) {
+            xhr1 = new XMLHttpRequest();
+        }
+        xhr1.open("get",'{% url 'yh:yzm_pd'%}?num='+$('#yzm').val());
+        $('#tu1').attr('src','/static/panduan/load.gif');
+        xhr1.send();
+
+        xhr1.onreadystatechange=function () {
+            if(xhr1.readyState==4 && xhr1.status==200){
+           var a=xhr1.responseText;
+
+            if(a=='ok'){
+                $('#tu1').attr('src','/static/panduan/ok.gif');
+                flag1=1;
+            }
+            else if(a=='error'){
+                $('#tu1').attr('src','/static/panduan/error.jpg');
+            }
+        }
+
+        }
+    }
+    function fun2() {
+
+        a=$('#yzm').val().length
+        if(a>4){
+             $('#yzm').blur()
+        }
+
+    }
+    function fun3() {
+        if(flag1==1 && flag2==1){
+            $('#anniu').attr('type','submit')
+        }
+
+
+    }
+ </script>
+{% endblock %}

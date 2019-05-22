@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69e4696a-0391-40b1-be0f-e17d55ec49e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../baizhi_book/ip_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baizhi_book/ipchi/ipchi/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask1/templates/introduce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part1/.idea/part1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part1/crazy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/bullet_green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/bullet_grey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/button.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/content_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/footer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/footer_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/nane.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/tableheader-bg-grey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/tableheader-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/static/img/top_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/admin_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/application_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/application_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/application_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/application_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/application_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/application_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/application_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/application_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/project1/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/templates/addEmp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/templates/emplist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/templates/parent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/templates/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project1/templates/updateEmp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/manage_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/manage_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/manage_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/manage_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/render.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/spider/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/spider/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/sss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/sss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/templates/manages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/templates/manages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/templates/manages/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spiders/templates/manages/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/templates/tables/zhe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/templates/tables/zhu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiders/templates/tables/中国地图.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sports$main.coverage" NAME="main Coverage Results" MODIFIED="1556084441730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sports" />
+    <SUITE FILE_PATH="coverage/sports$ip_spiders.coverage" NAME="ip_spiders Coverage Results" MODIFIED="1555320878666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../baizhi_book/ipchi/ipchi/spiders" />
+    <SUITE FILE_PATH="coverage/sports$sports.coverage" NAME="sports Coverage Results" MODIFIED="1554887473226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sports/spiders" />
+    <SUITE FILE_PATH="coverage/sports$test.coverage" NAME="test Coverage Results" MODIFIED="1556264490604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sports" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1698584907">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="4" />
+          <entry key="project.open.time.24" value="4" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="log" value="1" />
+          <entry key="py" value="24" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="13889" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="13889" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../baizhi_book/ipchi/ipchi/spiders/ip_spiders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sports/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sports/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1256">
+              <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>广州</find>
+      <find>广州2019|全球软件开发大会</find>
+      <find>会议地点</find>
+      <find>会议时间</find>
+      <find>event_name</find>
+      <find>下一页</find>
+      <find>cpu</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sports/main.py" />
+        <option value="$PROJECT_DIR$/sports/informatios.txt" />
+        <option value="$PROJECT_DIR$/sports/settings.py" />
+        <option value="$PROJECT_DIR$/sports/spiders/sports.py" />
+        <option value="$PROJECT_DIR$/sports/test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="369" />
+    <option name="y" value="93" />
+    <option name="width" value="1492" />
+    <option name="height" value="713" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sports" type="462c0819:PsiDirectoryNode" />
+              <item name="sports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="ip_spiders" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sports" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../baizhi_book/ipchi/ipchi/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../baizhi_book/ipchi/ipchi/spiders/ip_spiders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sports" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sports" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sports/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sports" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sports" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sports/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sports/spiders/sports.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sports" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sports" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sports/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.sports" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.ip_spiders" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.ip_spiders" />
+        <item itemvalue="Python.sports" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69e4696a-0391-40b1-be0f-e17d55ec49e3" name="Default Changelist" comment="" />
+      <created>1548399082726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548399082726</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10714286" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917467" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27639157" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32917467" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://F:/virtual_envs/env137/Lib/site-packages/parsel/selector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/duandian.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/spiders/sports.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/informatios (3).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="93" selection-start-column="93" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/informatios.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60398">
+          <caret line="2330" column="8" selection-start-line="2330" selection-start-column="8" selection-end-line="2330" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936" />
+      </provider>
+    </entry>
+    <entry file="file://F:/virtual_envs/env137/Lib/site-packages/scrapy/http/request/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/virtual_envs/env137/Lib/site-packages/virtualenv.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-292057484/sys.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-292057484/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4784">
+          <caret line="184" selection-start-line="184" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/virtual_envs/env137/Lib/site-packages/psutil/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43420">
+          <caret line="1682" column="27" selection-start-line="1682" selection-start-column="14" selection-end-line="1682" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-292057484/_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <element signature="e#1134#1151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../baizhi_book/ipchi/ipchi/spiders/ip_spiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1256">
+          <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

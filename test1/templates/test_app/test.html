@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    {% load static %}
+</head>
+<body>
+<div style="text-align: center"><input type="text" id ="name1" style="height: 30px;width: 300px" onkeyup="fun1()" name="name1"><input type="button" value="搜索" name="name2" style="height: 30px"></div>
+<div id="qqq" style="width: 300px;margin: auto;margin-left: 779px" ></div>
+<script src="{% static 'jquery/jquery-1.11.1.js'  %}"></script>
+<script>
+function fun1() {
+    $('#qqq').children('h5').empty()
+
+    var csrftoken='{{ csrf_token }}';
+    $.ajaxSetup({headers:{'X-CSRFTOKEN':csrftoken}});
+    $.ajax(
+        {
+            type:'post',
+            url:'{% url 'test1:test1' %}',
+            dataType:'json',
+            data:'val='+$('#name1').val(),
+            success:function (a) {
+                {#console.log(a[0]);#}
+                if(a==''){$('#qqq').css('dispaly','none')}
+                else {
+                    for(var i=0;i<a.length;i++){
+                    console.log(a[i].username);
+                    $('#qqq').append('<h5>'+a[i].username+'</h5>');
+                    $('#qqq').children('h5').attr('onclick','fun2()')
+                }
+                }
+
+            }
+        }
+    )
+
+
+}
+function fun2() {
+    text=this.text()
+    console.log(text)
+    $('#name1').append('<span>'+text+'</span>')
+}</script>
+</body>
+</html>

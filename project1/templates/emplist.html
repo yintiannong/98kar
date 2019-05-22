@@ -1,0 +1,67 @@
+{% extends 'parent.html' %}
+{% block super1 %}
+<div id="content">
+					<p id="whereami">
+					</p>
+					<h1>
+						Welcome!
+					</h1>
+					<table class="table">
+						<tr class="table_header">
+							<td>
+								ID
+							</td>
+							<td>
+								Name
+							</td>
+							<td>
+								Salary
+							</td>
+							<td>
+								Age
+							</td>
+							<td>
+								Gender
+							</td>
+							<td>
+								Birth
+							</td>
+							<td>
+								Operation
+							</td>
+						</tr>
+                    {% for foo in tuple %}
+                    <tr class="row1">
+							<td>
+								{{ foo.id }}
+							</td>
+							<td>
+								{{ foo.name }}
+							</td>
+							<td>
+								{{ foo.salary }}
+							</td>
+							<td>
+								{{ foo.age }}
+							</td>
+							<td>
+								{{ foo.gender }}
+							</td>
+							<td>
+								{{ foo.birth|date:'Y/m/d H:i:s' }}
+							</td>
+							<td>
+								<a onclick="sc({{ foo.id }})">delete emp</a>&nbsp;<a href="{% url 'admin1:up' %}?id={{ foo.id }}">update emp</a>
+							</td>
+						</tr>
+                    {% endfor %}
+
+
+
+
+					</table>
+					<p>
+						<input type="button" class="button" value="Add Employee" onclick="location='{% url 'admin1:add1' %}'"/>
+					</p>
+				</div>
+{% endblock %}
